@@ -6,7 +6,7 @@ import Contact from './Contact.js'
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="Home">
         <Landing />
         <Services />
         <Contact />
