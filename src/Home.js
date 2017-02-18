@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
+import Landing from './Landing.js'
+import Services from './Services.js'
+import Contact from './Contact.js'
 
 class Home extends Component {
   render() {
     return (
-      <div>Home</div>
+      <div>
+        <Landing />
+        <Services />
+        <Contact />
+      </div>
     )
   }
 }

@@ -4,20 +4,28 @@
   margin: 0;
 }
 .Site{
+  min-height: 100%;
   display: flex;
   flex-direction: column;
-  color: #FFF
+  color: #FFF;
+  align-items: flex-start;
 }
 .Header{
+  flex-grow: 0;
+  flex-shrink: 0;
   height: 120px;
   background-color: #141414;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
 }
 .Title{
   line-height: 120px;
   padding: 0px 20px;
   height: auto;
+  flex-grow: 2;
 }
 nav{
   display: flex;
@@ -25,39 +33,55 @@ nav{
 }
 .Menu{
   display: flex;
-  flex-grow: 1;
+  flex-grow: 3;
   justify-content: space-around;
   height: auto;
   line-height: 120px;
+  align-self: flex-end;
 }
 .MenuItem{
   height: auto;
-  padding: 0px 20px;
+  padding: 0px 40px;
+  color: #616161
 }
 .MenuItem:hover{
-  background-color: #000;
-  padding: 0px 20px;
+  color: #FFF;
 }
 .ActiveMenuItem{
-
+  color: #A5A5A5;
 }
 .MenuItem a:link {
-  color: #fff
+  color: #616161
 }
 .Content{
   flex-grow: 1;
-  background-color: #4B4A41;
+  background-color: #141414;
+  width: 100%;
+
+}
+.Section{
+  flex-basis: 400px;
+  min-height: 400px;
+  width: 100%;
+}
+.Landing{
+
+
 }
 .Footer{
-  height: 120px;
+  flex-grow: 0;
+  flex-shrink: 0;
   background-color: #141414;
+  text-align: center;
+  color: #616161;
+  width: 100%;
 }
 .Home{
   background-color: #FFFFF7;
   flex-grow: 1;
 }
 a {
-  color: #FFF
+  color: #616161
 }
 a:hover {
   color: #CCC
