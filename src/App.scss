@@ -81,6 +81,12 @@ nav{
   display: flex;
   justify-content: space-around;
 }
+.Service{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: auto;
+}
 .Contact{
 
   margin: auto;
@@ -88,6 +94,7 @@ nav{
 .ContactForm{
   margin: auto;
   width: 500px;
+  height: 300px;
 }
 .Footer{
   flex-grow: 0;

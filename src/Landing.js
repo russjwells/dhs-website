@@ -5,7 +5,7 @@ class Landing extends Component {
     return(
       <div className="Landing Section">
         <div className="Greeting">
-          <h1>Design and technology for a conscious world.</h1>
+          <h1>Design and technology for an evolving world.</h1>
         </div>
       </div>
     )

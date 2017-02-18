@@ -7,7 +7,7 @@ class Contact extends Component {
 
         <div className="ContactForm">
           <form>
-            <h2>Send us a message:</h2>
+            <h2>Interested in our services?</h2>
             <h3>email:</h3><input type="text"/>
             <h3>message:</h3><textarea></textarea>
             <br/>
