@@ -63,10 +63,27 @@ nav{
   flex-basis: 400px;
   min-height: 400px;
   width: 100%;
+  color: #616161;
 }
 .Landing{
+  align-items: center;
+  background-color: #333;
+  display: flex;
+  line-height: 53px;
 
+}
+.Greeting{
+  margin: auto;
+  width: 500px;
+  height: 200px;
+}
+.Services{
+  display: flex;
+  justify-content: space-around;
+}
+.Contact{
 
+  margin: auto;
 }
 .Footer{
   flex-grow: 0;
