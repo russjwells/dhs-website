@@ -8,8 +8,8 @@ class Contact extends Component {
         <div className="ContactForm">
           <form>
             <h2>Interested in our services?</h2>
-            <h3>email:</h3><input type="text"/>
-            <h3>message:</h3><textarea></textarea>
+            <p>Your Email:</p><input type="text"/>
+            <p>Your Message:</p><textarea></textarea>
             <br/>
             <input type="submit" value="Send"/>
           </form>
