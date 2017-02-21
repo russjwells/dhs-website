@@ -103,6 +103,7 @@ nav{
     vertical-align: top;
     width: 500px;
     height: 200px;
+    resize: none;
   }
 }
 .Footer{
@@ -113,8 +114,19 @@ nav{
   color: #616161;
   width: 100%;
 }
+.socialLinks{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+}
 .Home{
 
+}
+.ProjectList{
+  width: 900px;
+  margin: 0px auto;
 }
 .Team{
   width: 900px;
@@ -136,6 +148,7 @@ nav{
 .About{
   width: 900px;
   margin: 0px auto;
+  line-height: 25px;
 }
 a {
   color: #616161

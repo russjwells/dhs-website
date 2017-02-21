@@ -5,7 +5,7 @@ class Services extends Component {
     return(
       <div className="Services Section">
         <div className="Service">
-          <h2>Conscious Tech</h2>
+          <h2>Conscious Technology</h2>
           <p>We create new techonolgies to further human evoultion.</p>
         </div>
         <div className="Service">
