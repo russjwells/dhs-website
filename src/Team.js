@@ -12,7 +12,8 @@ class Team extends Component {
           <div className="MemberDetails">
             <h3>Russell Wells</h3>
             <p>Lead Software Engineer and Digital Designer</p>
-            <p>Russ has been creating digital products his whole life. With attention to clarity and simplicity he crafts elegant and compelling digital experiences.</p>
+            <p>Russ has been creating digital products his whole life. He crafts elegant and compelling digital experiences.</p>
+            <p><a href="http://www.russellwells.online">www.russellwells.online</a></p>
           </div>
         </div>
       </div>
