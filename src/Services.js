@@ -16,6 +16,18 @@ class Services extends Component {
           <h2>Mobile Apps</h2>
           <p>Multi-platform native mobile applications.</p>
         </div>
+        <div className="Service">
+          <h2>Motion Graphics, Video and Film</h2>
+          <p>Short video spots or feature length edits.</p>
+        </div>
+        <div className="Service">
+          <h2>Branding and Identity</h2>
+          <p>Enhance your presence.</p>
+        </div>
+        <div className="Service">
+          <h2>3D, Graphic Design and Illustration</h2>
+          <p>Get surreal.</p>
+        </div>
       </div>
     )
   }

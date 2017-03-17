@@ -4,7 +4,6 @@ class Contact extends Component {
   render(){
     return(
       <div className="Contact Section">
-
         <div className="ContactForm">
           <form>
             <h2>Interested in our services?</h2>
