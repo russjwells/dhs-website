@@ -1,19 +1,27 @@
 import React, { Component } from 'react'
 import {Link, IndexLink} from 'react-router'
+import dh_highlight from './dh_highlight.png'
+import dh_lowlight from './dh_lowlight.png'
 
 class Header extends Component {
   render() {
+    var TitleStyle = {
+          backgroundImage: 'url(' + dh_lowlight + ')',
+          backgroundSize: 'contain',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          cursor: 'pointer'
+        }
     return (
       <div className="Header">
-        <div className="Title">
           <IndexLink
             to='/'
-            style={{ textDecoration: 'none' }}
+            style={ TitleStyle }
             activeClassName='ActiveMenuItem'
-            className='Title'>
-            Digital Hyperspace
+            className='TitleImage'>
+             <div className="Title" >
+             </div>
           </IndexLink>
-        </div>
         <nav className="Menu">
           <Link
             to='/projects'

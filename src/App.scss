@@ -20,12 +20,19 @@
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
+  border-bottom: 1px solid #616161;
 }
 .Title{
-  line-height: 120px;
-  padding: 0px 20px;
-  height: auto;
   flex-grow: 2;
+  width: 200px;
+  height: 78px;
+}
+.TitleImage{
+  width: 200px;
+  height: 78px;
+  cursor: pointer;
+  margin: auto;
+  padding: 0 20px;
 }
 nav{
   display: flex;
@@ -87,7 +94,7 @@ nav{
   flex-direction: column;
   height: 200px;
   width: 600px;
-  margin: auto;
+  margin: 20px auto;
 }
 .Contact{
   margin: auto;
@@ -158,6 +165,7 @@ nav{
 .MemberPhoto{
   width: 200px;
   height: 200px;
+  padding: 20px;
 }
 .MemberDetails{
   padding: 20px;
