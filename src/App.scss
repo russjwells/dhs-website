@@ -40,8 +40,8 @@ nav{
 }
 .Menu{
   display: flex;
-  flex-grow: 3;
-  justify-content: space-around;
+  flex-grow: 1;
+  justify-content: flex-end;
   height: auto;
   line-height: 120px;
   align-self: flex-end;
@@ -50,12 +50,15 @@ nav{
   height: auto;
   padding: 0px 40px;
   color: #616161;
+  border-bottom: 5px solid #000;
+  margin: 0px 20px;
 }
 .MenuItem:hover{
-  color: #FFF;
+
 }
 .ActiveMenuItem{
   color: #A5A5A5;
+  border-bottom: 5px solid #616161;
 }
 .MenuItem a:link {
   color: #616161
@@ -134,6 +137,7 @@ nav{
   text-align: center;
   color: #616161;
   width: 100%;
+  border-top: 1px solid #616161;
   a:link{
     text-decoration: none;
   }

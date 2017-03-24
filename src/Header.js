@@ -17,7 +17,6 @@ class Header extends Component {
           <IndexLink
             to='/'
             style={ TitleStyle }
-            activeClassName='ActiveMenuItem'
             className='TitleImage'>
              <div className="Title" >
              </div>
