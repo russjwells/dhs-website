@@ -13,6 +13,14 @@ class ProjectList extends Component{
             <p><a href="https://itunes.apple.com/us/app/sitting-timer/id1139439714">iOS App</a> | <a href="https://github.com/russjwells/SittingApp">Repository</a></p>
           </div>
         </div>
+        <div className="ProjectListItem">
+          <div className="ProjectInfo">
+            <h2>Sexy Awakening</h2>
+            <p>Earth's first conscious sexuality portal.</p>
+            <p><i>react native, node, express</i></p>
+            <p><a href="http://www.sexyawakening.com">Website</a> | App coming soon – Sign up for the newsletter!</p>
+          </div>
+        </div>
       </div>
     )
   }
