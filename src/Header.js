@@ -27,21 +27,21 @@ class Header extends Component {
             style={{ textDecoration: 'none' }}
             activeClassName='ActiveMenuItem'
             className='MenuItem'>
-            Projects
+            Our Work
           </Link>
           <Link
             to='/team'
             style={{ textDecoration: 'none' }}
             activeClassName='ActiveMenuItem'
             className='MenuItem'>
-            Team
+            Our Team
           </Link>
           <Link
             to='/about'
             style={{ textDecoration: 'none' }}
             activeClassName='ActiveMenuItem'
             className='MenuItem'>
-            About
+            About Us
           </Link>
         </nav>
       </div>
