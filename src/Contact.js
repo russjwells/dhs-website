@@ -20,23 +20,8 @@ class Contact extends Component {
     return(
       <div className="Contact Section">
         <div className="ContactForm">
-          <form>
             <h2>Interested in our services?</h2>
-            <p>Your Email:</p>
-            <input type="text"/>
-              Your budget:
-              <select value={this.state.value} onChange={this.handleChange}>
-                <option value="tier1">less than $1000</option>
-                <option value="tier2">$1000-$2000</option>
-                <option value="tier3">$2000-$5000</option>
-                <option value="tier4">$5000-$10,000</option>
-                <option value="tier5">$10,000+</option>
-              </select>
-            <p>Your Message:</p>
-            <textarea></textarea>
-
-            <input type="submit" value="Send"/>
-          </form>
+            <p>Send inquires to: digitalhyperspace369@gmail.com</p>
         </div>
       </div>
     )
