@@ -4,8 +4,8 @@ class About extends Component {
   render() {
     return (
       <div className="About Section">
-        <h2>Digital Hyperspace Manifest</h2>
-        <p>Digital Hyperspace is a design and technology firm that exists to facilitate the expansion of consciousness on earth. We create applications and experiences to uplift, inspire, and evolve your human experience.</p>
+        <h2>About Digital Hyperspace</h2>
+        <p>Digital Hyperspace is a design, media, and technology company that exists to facilitate the expansion of consciousness on Earth. We create applications and experiences to uplift, inspire, and evolve your life experience.</p>
       </div>
     )
   }

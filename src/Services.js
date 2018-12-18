@@ -6,19 +6,19 @@ class Services extends Component {
       <div className="Services Section">
         <div className="Service">
           <h2>Web Applications</h2>
-          <p>We build custom javascript based web applications.</p>
+          <p>We build custom boutique web applications.</p>
         </div>
         <div className="Service">
           <h2>Mobile Apps</h2>
-          <p>iOS and Android apps. We create multi-platform native mobile applications. </p>
+          <p>We create native mobile applications for iOS and Android.</p>
         </div>
         <div className="Service">
           <h2>Websites</h2>
-          <p>Get a custom site or build with wordpress, squarespace and others. </p>
+          <p>Get a custom website from scratch or create with wordpress, squarespace or other site builders.</p>
         </div>
         <div className="Service">
           <h2>Graphic Design and Illustration</h2>
-          <p>Get surreal.</p>
+          <p>Graphics for print and web.</p>
         </div>
         <div className="Service">
           <h2>Brand Identity</h2>
@@ -30,7 +30,7 @@ class Services extends Component {
         </div>
         <div className="Service">
           <h2>Digital Installations</h2>
-          <p>Virtual Reality. Augmentented Reality. Add immersive digital flow to your life, business or event.</p>
+          <p>Virtual Reality. Augmentented Reality. Add immersive digital environments to your life, business or event.</p>
         </div>
         <div className="Service">
           <h2>Games</h2>

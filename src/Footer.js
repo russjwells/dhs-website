@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import twitterSocial from './tw_icon.png'
 import facebookSocial from './fb_icon.png'
+import instagramSocial from './ig_icon.png'
 
 class Footer extends Component {
   render() {
@@ -13,11 +14,14 @@ class Footer extends Component {
           <div className="twLink">
             <a href="http://www.twitter.com/digitalhyper_"><img src={twitterSocial} alt="twitter" width="32" height="26"/></a>
           </div>
+          <div className="instaLink">
+            <a href="http://www.instagram.com/digitalhyperspace"><img src={instagramSocial} alt="instagram" width="32" height="26"/></a>
+          </div>
         </div>
-        <p><a href="http://www.digitalhyperspace.com">Digital Hyperspace</a> &copy; 2017</p>
+        <p><a href="http://www.digitalhyperspace.com">Digital Hyperspace</a> &copy; 2018</p>
       </div>
     )
-  }
+  } 
 }
 
 export default Footer
